@@ -100,3 +100,4 @@ C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidl
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddKeyToTable.resources
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateSet.resources
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovies.resources
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.changeMovieInStock.resources
