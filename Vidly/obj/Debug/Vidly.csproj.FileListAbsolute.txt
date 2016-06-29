@@ -101,3 +101,11 @@ C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidl
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateSet.resources
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovies.resources
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.changeMovieInStock.resources
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\System.Web.Http.dll
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\System.Web.Http.xml
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\AutoMapper.dll
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\AutoMapper.xml
