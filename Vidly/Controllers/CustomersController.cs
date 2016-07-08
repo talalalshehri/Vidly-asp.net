@@ -11,11 +11,11 @@ namespace Vidly.Controllers
 {
     
         // GET: Customers
-     public class CustomerController : Controller
+     public class CustomersController : Controller
      {
          private ApplicationDbContext _context;
 
-         public CustomerController()
+         public CustomersController()
          {
              _context = new ApplicationDbContext();
          }
@@ -60,7 +60,7 @@ namespace Vidly.Controllers
 
             }
             _context.SaveChanges();
-            return RedirectToAction("Index", "Customer");
+            return RedirectToAction("Index", "Customers");
         }
 
          public ViewResult Index()

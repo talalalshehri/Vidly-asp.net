@@ -10,11 +10,11 @@ using Vidly.ViewModel;
 
 namespace Vidly.Controllers
 {
-    public class MovieController : Controller
+    public class MoviesController : Controller
     {
         private ApplicationDbContext _context;
         // GET: Movies
-        public MovieController()
+        public MoviesController()
         {
             _context = new ApplicationDbContext();
         }
@@ -26,8 +26,7 @@ namespace Vidly.Controllers
        
         public ViewResult Index()
         {
-            var movies = _context.Movies.Include(c => c.GenreSet).ToList();
-            return View(movies);
+           return View();
         }
 
         public ActionResult Details(int id)
