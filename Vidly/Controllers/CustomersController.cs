@@ -65,6 +65,7 @@ namespace Vidly.Controllers
 
          public ViewResult Index()
          {
+            
             return View();
          }
  

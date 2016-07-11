@@ -109,3 +109,6 @@ C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\System.Web
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\AutoMapper.dll
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\AutoMapper.xml
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser.resources
