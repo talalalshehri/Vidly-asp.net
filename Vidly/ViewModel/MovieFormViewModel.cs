@@ -18,7 +18,7 @@ namespace Vidly.ViewModel
 
         [Display(Name = "Genre")]
         [Required]
-        public byte? GenreId { get; set; }
+        public byte? GenreSetId { get; set; }
 
         [Display(Name = "Release Date")]
         [Required]
@@ -47,7 +47,7 @@ namespace Vidly.ViewModel
             Name = movie.Name;
             ReleaseDate = movie.ReleaseDate;
             NumberInStock = movie.NumberInStock;
-            GenreId = movie.GenreSetId;
+            GenreSetId = movie.GenreSetId;
         }
     }
 }
