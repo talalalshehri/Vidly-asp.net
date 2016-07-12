@@ -112,3 +112,6 @@ C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\AutoMapper
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser.resources
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\Glimpse.AspNet.dll
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\Glimpse.Core.dll
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\Glimpse.Mvc5.dll
