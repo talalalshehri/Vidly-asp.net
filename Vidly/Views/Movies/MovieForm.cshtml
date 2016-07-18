@@ -1,4 +1,4 @@
-﻿@model Vidly.ViewModel.MovieFormViewModel
+﻿@model Vidly.ViewModels.MovieFormViewModel
 
 @{
     ViewBag.Title = Model.Title;
@@ -20,9 +20,9 @@
         @Html.ValidationMessageFor(m => m.ReleaseDate)
     </div>
     <div class="form-group">
-        @Html.LabelFor(m => m.GenreSetId)
-        @Html.DropDownListFor(m => m.GenreSetId, new SelectList(Model.GenreSets, "Id", "Name"), "", new { @class = "form-control" })
-        @Html.ValidationMessageFor(m => m.GenreSetId)
+        @Html.LabelFor(m => m.GenreId)
+        @Html.DropDownListFor(m => m.GenreId, new SelectList(Model.Genres, "Id", "Name"), "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.GenreId)
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.NumberInStock)

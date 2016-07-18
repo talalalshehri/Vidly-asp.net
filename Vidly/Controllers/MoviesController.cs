@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web.Mvc;
 using Vidly.Models;
 using Vidly.ViewModel;
-
+using Vidly.ViewModels;
 
 namespace Vidly.Controllers
 {
@@ -26,9 +26,8 @@ namespace Vidly.Controllers
         public ViewResult Index()
         {
             if (User.IsInRole(RoleName.CanManageMovies))
-            {
                 return View("List");
-            }
+
             return View("ReadOnlyList");
         }
 
@@ -39,12 +38,13 @@ namespace Vidly.Controllers
 
             var viewModel = new MovieFormViewModel
             {
-                GenreSets = genres
+                Genres = genres
             };
 
             return View("MovieForm", viewModel);
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult Edit(int id)
         {
             var movie = _context.Movies.SingleOrDefault(c => c.Id == id);
@@ -54,7 +54,7 @@ namespace Vidly.Controllers
 
             var viewModel = new MovieFormViewModel(movie)
             {
-                GenreSets = _context.GenreSets.ToList()
+                Genres = _context.GenreSets.ToList()
             };
 
             return View("MovieForm", viewModel);
@@ -63,7 +63,7 @@ namespace Vidly.Controllers
 
         public ActionResult Details(int id)
         {
-            var movie = _context.Movies.Include(m => m.GenreSet).SingleOrDefault(m => m.Id == id);
+            var movie = _context.Movies.Include(m => m.Genre).SingleOrDefault(m => m.Id == id);
 
             if (movie == null)
                 return HttpNotFound();
@@ -73,17 +73,18 @@ namespace Vidly.Controllers
         }
 
 
-       
+        
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult Save(Movie movie)
         {
             if (!ModelState.IsValid)
             {
                 var viewModel = new MovieFormViewModel(movie)
                 {
-                    GenreSets = _context.GenreSets.ToList()
+                    Genres = _context.GenreSets.ToList()
                 };
 
                 return View("MovieForm", viewModel);
@@ -98,7 +99,7 @@ namespace Vidly.Controllers
             {
                 var movieInDb = _context.Movies.Single(m => m.Id == movie.Id);
                 movieInDb.Name = movie.Name;
-                movieInDb.GenreSetId = movie.GenreSetId;
+                movieInDb.GenreId = movie.GenreId;
                 movieInDb.NumberInStock = movie.NumberInStock;
                 movieInDb.ReleaseDate = movie.ReleaseDate;
             }
