@@ -10,9 +10,10 @@ namespace Vidly.Controllers
     [AllowAnonymous]
     public class HomeController : Controller
     {
-        [OutputCache(Duration = 0,  VaryByParam = "*", NoStore = true)]
+       
         public ActionResult Index()
         {
+            throw new Exception();
             return View();
         }
 

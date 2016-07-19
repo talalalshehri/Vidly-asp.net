@@ -118,3 +118,4 @@ C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Testing\Vi
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Testing\Vidly.csproj.GenerateResource.Cache
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Testing\Vidly.dll
 C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\obj\Testing\Vidly.pdb
+C:\Users\Elijah\documents\visual studio 2015\Projects\Vidly\Vidly\bin\Elmah.dll
